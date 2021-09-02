@@ -2,12 +2,26 @@ body {
     font-family: 'Roboto';
     font-size: 16px;
     color: black;
+    margin-left: 215px;
+    margin-right: 215px;
 }
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+
 
 header{
     font-weight: 500;
-    font-size: 14;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 1,2;
 }
 
 button {
@@ -28,67 +42,107 @@ button:focus {
 h1 {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1,5;
+    text-align: center;
 }
 
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,17;
+    text-align: center;
 }
 
 h3 {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
 }
 
 .button1 {
     font-weight: 700;
-    line-height: 30px;
+    line-height: 1,9;
+    text-align: center;
 }
 
 .button2 {
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1,6;
+    text-align: center;
 }
 
 .text1 {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,2;
+    text-transform: none;
 }
 
 .text2 {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
     color: #757575;
 }
 
 .text3 {
     font-weight: 500;
-    line-height: 19px;
+    line-height: 1,2;
 }
 
 .text4 {
-    line-height: 19px;
+    line-height: 1,2;
     color: #757575;
 }
 
 .text5 {
-    line-height: 30px;
+    line-height: 1,9;
     color: #757575;
+}
+
+.text6 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,2;
+    color: #757575;
+}
+
+.text7 {
+    font-size: 14px;
+    line-height: 1,7;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,2;
 }
+
+.logo2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    color: #2196F3;
+    margin-left: 215px;
+}
+
 
 footer {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
+    color: #FFFFFF;
+    position: absolute;
+    background: #2F303A;
+    left: 0px;
+    right: 0px;
+    height: 200px;
+
 }
+
+address {
+    margin-left: 215px;
+}
+
 
 
