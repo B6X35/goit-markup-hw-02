@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto';
-    font-size: 16px;
     color: black;
     margin-left: 215px;
     margin-right: 215px;
@@ -21,15 +20,15 @@ a {
 header{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,2;
+    line-height: 1.2;
 }
 
 button {
     cursor: pointer;
   }
 
-a:hover,
-a:focus {
+.a:hover,
+.a:focus {
     color: #2196F3;
 }
 
@@ -39,21 +38,21 @@ button:focus {
     background: #2196F3;
 }
 
-h1 {
+.h1 {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,5;
+    line-height: 1.5;
     text-align: center;
 }
 
-h2 {
+.h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
 }
 
-h3 {
+.h3 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -61,70 +60,97 @@ h3 {
 
 .button1 {
     font-weight: 700;
-    line-height: 1,9;
+    font-size: 16px;
+    line-height: 1.9;
     text-align: center;
 }
 
 .button2 {
+    font-size: 16px;
     font-weight: 500;
-    line-height: 1,6;
+    line-height: 1.6;
     text-align: center;
 }
 
 .text1 {
+    font-weight: 700;
     font-size: 14px;
-    line-height: 1,2;
-    text-transform: none;
+    line-height: 1.2;
+    text-transform: uppercase;
 }
 
 .text2 {
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     color: #757575;
 }
 
 .text3 {
+    font-size: 16px;
     font-weight: 500;
-    line-height: 1,2;
+    line-height: 1.2;
 }
 
 .text4 {
-    line-height: 1,2;
+    font-size: 16px;
+    line-height: 1.2;
     color: #757575;
 }
 
 .text5 {
-    line-height: 1,9;
+    font-size: 16px;
+    line-height: 1.9;
     color: #757575;
 }
 
 .text6 {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,2;
+    line-height: 1.2;
     color: #757575;
 }
 
 .text7 {
     font-size: 14px;
-    line-height: 1,7;
-    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.7;
+    color: #999999;
+}
+
+.text7:focus,
+.text7:hover {
+    color: #2196F3;
 }
 
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,2;
+    line-height: 1.2;
+    color: #2196F3;
 }
 
 .logo2 {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,2;
+    line-height: 1.2;
+}
+
+.logo3 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
     color: #2196F3;
     margin-left: 215px;
+}
+
+.logo4 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #FFFFFF;
 }
 
 
@@ -141,6 +167,7 @@ footer {
 }
 
 address {
+    font-style: normal;
     margin-left: 215px;
 }
 
