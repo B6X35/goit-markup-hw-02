@@ -1,6 +1,15 @@
+:root {
+    --normal-color: #212121;
+    --description-color: #757575;
+    --active-color: #2196F3;
+    --background-color: #2F303A;
+    --contact-color: #999999;
+    --footer-text-color: #FFFFFF;
+}
+
 body {
     font-family: 'Roboto';
-    color: black;
+    color: var(--normal-color);
     margin-left: 215px;
     margin-right: 215px;
 }
@@ -12,12 +21,12 @@ li {
 
 .menu1 {
     text-decoration: none;
-    color: #212121;
+    color: var(--normal-color);
 }
 
 .menu2 {
     text-decoration: none;
-    color: #2196F3;
+    color: var(--active-color);
 }
 
 header{
@@ -32,13 +41,13 @@ button {
 
 .menu1:hover,
 .menu1:focus {
-    color: #2196F3;
+    color: var(--active-color);
 }
 
 button:hover,
 button:focus {
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--footer-text-color);
+    background: var(--active-color);
 }
 
 .heading1 {
@@ -79,7 +88,7 @@ button:focus {
 .feature2 {
     font-size: 14px;
     line-height: 1.7;
-    color: #757575;
+    color: var(--description-color);
 }
 
 .team1 {
@@ -91,7 +100,7 @@ button:focus {
 .team2 {
     font-size: 16px;
     line-height: 1.2;
-    color: #757575;
+    color: var(--description-color);
 }
 
 .project1 {
@@ -103,7 +112,7 @@ button:focus {
 .project2 {
     font-size: 16px;
     line-height: 1.9;
-    color: #757575;
+    color: var(--description-color);
 }
 
 .contact1 {
@@ -111,24 +120,24 @@ button:focus {
     font-size: 14px;
     line-height: 1.2;
     text-decoration: none;
-    color: #757575;
+    color: var(--description-color);
 }
 
 .contact2 {
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
-    color: #999999;
+    color: var(--contact-color);
 }
 
 .contact1:focus,
 .contact1:hover {
-    color: #2196F3;
+    color: var(--active-color);
 }
 
 .contact2:focus,
 .contact2:hover {
-    color: #2196F3;
+    color: var(--active-color);
 }
 
 .logo1 {
@@ -137,7 +146,7 @@ button:focus {
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-    color: #2196F3;
+    color: var(--active-color);
     display: inline-block;
 }
 
@@ -146,13 +155,13 @@ button:focus {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    color: #2F303A;
+    color: var(--background-color);
     text-decoration: none;
     display: inline-block;
 }
 
 .logo2:visited {
-    color: #2F303A;
+    color: var(--background-color);
 }
 
 .logo3 {
@@ -160,7 +169,7 @@ button:focus {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    color: #2196F3;
+    color: var(--active-color);
     text-decoration: none;
     display: inline-block;
     margin-left: 215px;
@@ -173,16 +182,16 @@ button:focus {
     line-height: 1.2;
     text-decoration: none;
     display: inline-block;
-    color: #FFFFFF;
+    color: var(--footer-text-color);
 }
 
 
 footer {
     font-size: 14px;
     line-height: 1.7;
-    color: #FFFFFF;
+    color: var(--footer-text-color);
     position: absolute;
-    background: #2F303A;
+    background: var(--background-color);
     left: 0px;
     right: 0px;
     height: 200px;
@@ -193,6 +202,5 @@ address {
     font-style: normal;
     margin-left: 215px;
 }
-
 
 
